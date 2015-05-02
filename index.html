@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sleeping time!</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="header">
+			<h1>Dreams, dreams...</h1>
+		</div>
+
+		<div class="container">
+			<h3>Sleep is very important. But what if you sleep too many hours a day? You can easily check how much time have you already spent on sleeping.</h3>
+			<br><br>
+
+			<form method="post" action="sleep_time.php">
+				
+				<table>
+					<tr>
+						<td>Your Name:</td>
+						<td><input type="text" id="yourname" name="yourname"></td>
+					</tr>
+				
+
+					<tr>
+						<td>Year of your birth?</td>
+						<td><input type="number" id="birthyear" name="birthyear"></td>
+					</tr>
+
+					<tr>
+						<td>How many hours a day do you sleep? </td>
+						<td><input type="number" id="sleephours" name="sleephours"></td>
+					</tr>
+				</table>
+				<br />
+				<p>
+				<input type="submit" value="Submit Information">
+				</p>
+			</form>
+			<hr style="border: 1px solid #074670;" />
+		</div>
+		<div id="footer">All Rights Reserved  ||  NOGAL 2015</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
